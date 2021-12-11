@@ -3,12 +3,12 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
-
+import time
 
 driver = webdriver.Chrome(
     executable_path=r'C:\Users\navisha\Desktop\selenium_basic\tutorial_selenium\test\driver\chromedriver.exe')
 
-driver.get('https://skillacademy.com/')
+# driver.get('https://skillacademy.com/')
 
 # drop_down = driver.find_element_by_xpath(
 #     '//div[@data-testid="dropdown-category"]')
@@ -20,9 +20,17 @@ driver.get('https://skillacademy.com/')
 # klik pilihan
 # driver.find_element_by_link_text('Pemasaran').click()
 
+
 # menggerakkan mouse dari offset x ke offset y dari posisi saat ini
 # membuat variabel x dan y
-x = 268
-y = 66
-webdriver.ActionChains(driver=driver).move_by_offset(
-    xoffset=x, yoffset=y).perform()
+# x = 268
+# y = 66
+# webdriver.ActionChains(driver=driver).move_by_offset(
+#     xoffset=x, yoffset=y).perform()
+
+
+# menggerakan mouse dari posisi element yang ditetapkan
+# element = driver.find_element_by_xpath(
+#     '//div[@data-testid="dropdown-category"]')
+# ActionChains(driver=driver).move_to_element_with_offset(
+#     to_element=element, xoffset=300, yoffset=50).click().perform()
