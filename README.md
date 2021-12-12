@@ -1,5 +1,5 @@
 # TUTORIAL SELENIUM MENGGUNAKAN PYTHON 
-*By Rifki Arisandi Pratam*
+*By Rifki Arisandi Pratama*
 
 *My Website [https://navisha-pratama.com/](https://navisha-pratama.com/)*
 
